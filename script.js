@@ -99,7 +99,7 @@ function checkAnswer(e){
     }else{
         wrong++
         wrongElement.innerText= `Erros: ${wrong}` 
-        alert(`Erraddo! a resposta certa é ${questions[currentQuestion].answer}`)
+        alert(`Errado! a resposta certa é ${questions[currentQuestion].answer}`)
         currentQuestion++
         loadQuestion()
     }
